@@ -325,12 +325,26 @@
 
     
     <footer class="footer text-center pt-2 pb-5">
-	    <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+	
         <small class="copyright">Todos los derechos reservados <i class="fas fa-copyright"></i> por <a href="https://linktr.ee/Aldo.Monroy" target="_blank">Aldo Monroy </a>2020</small>
     </footer>
 
-    
+<script>    
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v8.0'
+        });
+      };
 
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 </body>
 </html> 
 
